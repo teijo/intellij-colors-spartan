@@ -1,8 +1,18 @@
 Spartan color scheme
 ====================
 
-Plain color scheme for IntelliJ IDEA focusing on highlighting structure and
-errors.
+A very plain color scheme for IntelliJ IDEA focusing on highlighting structure and
+errors. All code is of uniform color, only strings and comments have a distinguishing
+color. Enhanced navigation and error highlighting.
+
+
+Rationale
+---------
+
+ - IDE's error highlighting capabilities should be given highest visual priority
+ - String contents aren't generally validated so they need extra care
+ - Comments must not be confused with code
+
 
 Installation
 ------------
