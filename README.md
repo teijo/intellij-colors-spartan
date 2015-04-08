@@ -5,6 +5,8 @@ A very plain color scheme for IntelliJ IDEA focusing on highlighting structure a
 errors. All code is of uniform color, only strings and comments have a distinguishing
 color. Enhanced navigation and error highlighting.
 
+![Spartan color scheme screenshot](https://raw.githubusercontent.com/teijo/intellij-colors-spartan/master/SpartanColorScheme.png)
+
 
 Rationale
 ---------
