@@ -23,3 +23,6 @@ Copy `Spartan.icls` to:
 
  - OS X: `~/Library/Preferences/IntelliJIdea14/colors`
  - Linux: `~/.IntelliJIdea14/config/colors`
+ - Windows: `%USERPROFILE%\.IntelliJIdea14\config\colors`
+
+IDEA must be restarted in order for the new color scheme to appear in the settings.
