@@ -634,6 +634,7 @@
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
+        <option name="EFFECT_COLOR" value="ff0005" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
