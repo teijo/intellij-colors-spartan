@@ -223,16 +223,21 @@
         <option name="FOREGROUND" value="4646f1" />
       </value>
     </option>
-    <option name="Clojure Atom">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-        <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
     <option name="DBNavigator.TextAttributes.SQL.Chameleon">
       <value>
         <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES">
+      <value>
+        <option name="FOREGROUND" value="ff4c5f" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
+      <value>
+        <option name="FOREGROUND" value="171f3a" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -366,7 +371,8 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="2d6099" />
+        <option name="FOREGROUND" value="5d0807" />
+        <option name="BACKGROUND" value="ff4c5f" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -500,6 +506,12 @@
     </option>
     <option name="Map key">
       <value />
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="2b1113" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
