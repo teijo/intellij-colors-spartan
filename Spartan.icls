@@ -64,6 +64,8 @@
     </option>
     <option name="BAD_CHARACTER">
       <value>
+        <option name="FOREGROUND" value="2b1113" />
+        <option name="BACKGROUND" value="ff0005" />
         <option name="EFFECT_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -274,7 +276,8 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="FOREGROUND" value="2b1113" />
+        <option name="BACKGROUND" value="ff0005" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
