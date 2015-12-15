@@ -77,7 +77,8 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3a2323" />
+        <option name="BACKGROUND" value="4e2424" />
+        <option name="EFFECT_COLOR" value="ff4c5f" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
