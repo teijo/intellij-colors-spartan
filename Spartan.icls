@@ -678,6 +678,27 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="Scala Immutable Collection">
+      <value>
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="Scala Mutable Collection">
+      <value>
+        <option name="EFFECT_COLOR" value="ff0005" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="Scala Template val">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Standart Java Collection">
+      <value>
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="Static property reference ID">
       <value>
         <option name="FOREGROUND" value="9876aa" />
