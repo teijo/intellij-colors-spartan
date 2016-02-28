@@ -13,7 +13,7 @@ Rationale
 
  - IDE's error highlighting capabilities should be given highest visual priority
  - String contents aren't generally validated so they need extra care
- - Comments must not be confused with code
+ - Comments should exist for a reason, and therefore catch your eye
 
 
 Installation
