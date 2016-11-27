@@ -1,12 +1,12 @@
-<scheme name="Spartan" version="124" parent_scheme="Default">
+<scheme name="Spartan" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+    <option name="EDITOR_FONT_NAME" value="Monaco" />
     <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
   <colors>
@@ -24,7 +24,6 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_MERGED" value="9876aa" />
     <option name="FILESTATUS_MODIFIED" value="6897bb" />
-    <option name="FILESTATUS_NOT_CHANGED" value="" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6897bb" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6897bb" />
     <option name="FILESTATUS_UNKNOWN" value="d1675a" />
@@ -49,7 +48,6 @@
     <option name="WHITESPACES" value="505050" />
   </colors>
   <attributes>
-    <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -181,11 +179,8 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-      </value>
-    </option>
+    <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ab51ba" />
@@ -202,21 +197,11 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CUSTOM_NUMBER_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="6897bb" />
-      </value>
-    </option>
-    <option name="CUSTOM_STRING_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="6a8759" />
-      </value>
-    </option>
-    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="4646f1" />
-      </value>
-    </option>
+    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="CUSTOM_NUMBER_ATTRIBUTES" baseAttributes="DEFAULT_NUMBER" />
+    <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
+    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FOREGROUND" value="ff4c5f" />
@@ -348,9 +333,6 @@
         <option name="ERROR_STRIPE_COLOR" value="43698d" />
       </value>
     </option>
-    <option name="DOC_COMMENT_TAG_VALUE">
-      <value />
-    </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
         <option name="BACKGROUND" value="5e5339" />
@@ -361,7 +343,6 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
-    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bbcada" />
@@ -397,9 +378,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GROOVY_KEYWORD">
-      <value />
-    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="287bde" />
@@ -425,7 +403,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="364135" />
@@ -447,11 +424,9 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="LABEL">
       <value>
@@ -512,7 +487,7 @@
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="2b1113" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ff3338" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -528,19 +503,9 @@
         <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
-    <option name="OC.DIRECTIVE">
+    <option name="OC.MACRONAME">
       <value>
-        <option name="FOREGROUND" value="80b000" />
-      </value>
-    </option>
-    <option name="OC.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-      </value>
-    </option>
-    <option name="OC.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="6897bb" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="OC.PROPERTY">
@@ -548,19 +513,20 @@
         <option name="FOREGROUND" value="cdbcac" />
       </value>
     </option>
-    <option name="OC.SELFSUPERTHIS">
+    <option name="OC_FORMAT_TOKEN">
       <value>
         <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
-    <option name="OC.STRING">
+    <option name="PHP_EXEC_COMMAND_ID">
       <value>
-        <option name="FOREGROUND" value="6a8759" />
+        <option name="FOREGROUND" value="a5c25c" />
+        <option name="BACKGROUND" value="5e6465" />
       </value>
     </option>
-    <option name="OC.STRUCT_FIELD">
+    <option name="PROTOCOL_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="9373a5" />
+        <option name="FOREGROUND" value="219598" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME">
