@@ -1,13 +1,8 @@
 <scheme name="Spartan" version="142" parent_scheme="Default">
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Monaco" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
-  </font>
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -60,6 +55,15 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="BASH.EXTERNAL_COMMAND">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="BASH.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_STRING" />
+    <option name="BASH.INTERNAL_COMMAND" baseAttributes="BASH.EXTERNAL_COMMAND" />
     <option name="BASH.REDIRECTION">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -138,9 +142,7 @@
       </value>
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
-      <value>
-        <option name="BACKGROUND" value="3e3850" />
-      </value>
+      <value />
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
@@ -182,18 +184,13 @@
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ab51ba" />
-      </value>
+      <value />
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="f9795" />
-      </value>
+      <value />
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c93b48" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -236,15 +233,19 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="b5c7dc" />
+        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
-      <value />
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
-      <value />
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
     </option>
     <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -367,8 +368,8 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="287bde" />
-        <option name="EFFECT_COLOR" value="287bde" />
+        <option name="FOREGROUND" value="2993fb" />
+        <option name="EFFECT_COLOR" value="2993fb" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -384,11 +385,10 @@
     <option name="GHERKIN_REGEXP_PARAMETER">
       <value />
     </option>
-    <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="287bde" />
-        <option name="EFFECT_COLOR" value="287bde" />
+        <option name="FOREGROUND" value="2993fb" />
+        <option name="EFFECT_COLOR" value="2993fb" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -415,6 +415,12 @@
         <option name="BACKGROUND" value="364135" />
       </value>
     </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="555555" />
+        <option name="BACKGROUND" value="ededed" />
+      </value>
+    </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -435,7 +441,20 @@
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
     <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CAST_VALUE">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value />
+    </option>
     <option name="LABEL">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -464,13 +483,11 @@
         <option name="FOREGROUND" value="ff6b68" />
       </value>
     </option>
-    <option name="List/map to object conversion" baseAttributes="JAVA_NUMBER" />
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="908b25" />
       </value>
     </option>
-    <option name="MAKO.SUBSTITUTION" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="14354" />
@@ -536,17 +553,11 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="PY.DECORATOR" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="PY.FUNC_DEFINITION">
       <value>
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="d16e00" />
@@ -558,6 +569,12 @@
         <option name="EFFECT_COLOR" value="d16e00" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
+    </option>
+    <option name="REGEXP.BRACKETS">
+      <value />
+    </option>
+    <option name="SASS_MIXIN">
+      <value />
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
@@ -690,7 +707,6 @@
         <option name="FOREGROUND" value="d1243b" />
       </value>
     </option>
-    <option name="Unresolved reference access" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="52503a" />
@@ -723,8 +739,5 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="org.rust.LIFETIME" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="org.rust.MACRO" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>
