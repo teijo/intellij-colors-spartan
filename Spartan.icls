@@ -1,8 +1,16 @@
 <scheme name="Spartan" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2018-01-10T23:20:59</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2017.3.2.0.0</property>
+    <property name="modified">2018-01-10T23:21:02</property>
+    <property name="originalScheme">Spartan copy</property>
+  </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
-  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -340,6 +348,17 @@
         <option name="BACKGROUND" value="5e5339" />
       </value>
     </option>
+    <option name="ELM_ARROW" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="ELM_BRACES" baseAttributes="DEFAULT_BRACES" />
+    <option name="ELM_BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="ELM_COMMA" baseAttributes="DEFAULT_COMMA" />
+    <option name="ELM_EQ" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="ELM_OPERATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="ELM_PARENTHESIS" baseAttributes="DEFAULT_PARENTHS" />
+    <option name="ELM_PIPE" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="ELM_TYPE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ELM_TYPE_ANNOTATION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="ELM_TYPE_ANNOTATION_SIGNATURE_TYPES" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="ENUM_CONST">
       <value>
         <option name="FOREGROUND" value="9373a5" />
@@ -383,6 +402,13 @@
     <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="GHERKIN_PYSTRING" baseAttributes="DEFAULT_STRING" />
     <option name="GHERKIN_REGEXP_PARAMETER">
+      <value />
+    </option>
+    <option name="HTTP_REQUEST_MULTIPART_BOUNDARY" baseAttributes="DEFAULT_DOC_COMMENT_TAG_VALUE" />
+    <option name="HTTP_REQUEST_PARAMETER_NAME">
+      <value />
+    </option>
+    <option name="HTTP_REQUEST_PARAMETER_VALUE">
       <value />
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -431,12 +457,8 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
-    <option name="Implicit conversion">
-      <value>
-        <option name="FOREGROUND" value="60b6ff" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
+    <option name="Implicit conversion" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="Interpolated String Injection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -488,6 +510,7 @@
         <option name="FOREGROUND" value="908b25" />
       </value>
     </option>
+    <option name="MAKO.SUBSTITUTION" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="14354" />
@@ -545,19 +568,15 @@
         <option name="FOREGROUND" value="219598" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
-      <value />
-    </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="PY.DECORATOR" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="d16e00" />
@@ -573,6 +592,11 @@
     <option name="REGEXP.BRACKETS">
       <value />
     </option>
+    <option name="REST.BOLD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="REST.FIXED" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="REST.INLINE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="REST.INTERPRETED" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="REST.ITALIC" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="SASS_MIXIN">
       <value />
     </option>
@@ -635,22 +659,8 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="Scala Immutable Collection">
-      <value>
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="Scala Mutable Collection">
-      <value>
-        <option name="EFFECT_COLOR" value="ff0005" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="Scala Template val">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="Scala Immutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="Scala Mutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Standart Java Collection">
       <value>
         <option name="EFFECT_TYPE" value="5" />
@@ -739,5 +749,11 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="org.rust.DOC_CODE" baseAttributes="DEFAULT_DOC_MARKUP" />
+    <option name="org.rust.LIFETIME" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.MACRO" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.MUT_BINDING" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.MUT_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>
