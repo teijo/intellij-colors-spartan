@@ -7,6 +7,7 @@ color. Enhanced navigation and error highlighting.
 
 ![Spartan color scheme screenshot](https://raw.githubusercontent.com/teijo/intellij-colors-spartan/master/SpartanColorScheme.png)
 
+For light color scheme, check out [Spartan Light](https://github.com/teijo/intellij-colors-spartan-light) in Github.
 
 Rationale
 ---------
@@ -19,10 +20,6 @@ Rationale
 Installation
 ------------
 
-Copy `Spartan.icls` to:
+Save `.icls` file in disk. Import it in IntelliJ IDEA:
 
- - OS X: `~/Library/Preferences/IntelliJIdea14/colors`
- - Linux: `~/.IntelliJIdea14/config/colors`
- - Windows: `%USERPROFILE%\.IntelliJIdea14\config\colors`
-
-IDEA must be restarted in order for the new color scheme to appear in the settings.
+`Preferences -> Color Scheme -> Cog icon -> Import Scheme -> IntelliJ IDEA color scheme (.icls) or settings (.jar)`
